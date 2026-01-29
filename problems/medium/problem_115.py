@@ -6,7 +6,7 @@ Difficulty: Medium
 
 def convert_speed(value):
     factor = 0.5
-    return value // factor
-    return value + factor
+    return value * factor
+
 
 print(convert_speed(100))
