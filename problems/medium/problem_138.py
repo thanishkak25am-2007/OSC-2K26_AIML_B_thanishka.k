@@ -4,7 +4,7 @@ Error Type: SYNTAX
 Difficulty: Medium
 """
 
-def format_score(val)
+def format_score(val):
     return f"Value: {val}" 
 
 print(format_score(10))
