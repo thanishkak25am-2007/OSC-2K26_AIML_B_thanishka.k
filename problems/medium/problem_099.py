@@ -9,8 +9,10 @@ def check_time(val):
 
     if val > 10:
         return 'High'
-    if val > 5:
+   elif val > 5:
         return 'Medium'
-    return 'Low' 
+
+else:
+        return 'Low' 
     
 print(check_time(20))
