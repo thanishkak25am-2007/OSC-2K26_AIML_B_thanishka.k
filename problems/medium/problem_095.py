@@ -7,7 +7,7 @@ Difficulty: Medium
 # Generic logic for Time Validator
 def run():
     x = 10
-    y = 0
+    y = 1
     return x / y
 
-run()
+print(run())
