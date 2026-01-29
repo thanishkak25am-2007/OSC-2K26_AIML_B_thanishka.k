@@ -7,7 +7,7 @@ Difficulty: Medium
 # Generic logic for Speed Validator
 def run():
     x = 10
-    y = 0
+    y = 4
     return x / y
 
-run()
+print(run())
